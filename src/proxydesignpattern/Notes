@@ -1,0 +1,13 @@
+its a structural design pattern
+it lets you provide a substitute or placeholder for another object
+A proxy controls access to the original object allowing you to perform something either before or after the request
+gets through to the original object
+
+Advantages
+1.Access control/protection given to proxy object.
+This is when you want only specific clients to be able to use the service object
+Caching request results(Caching proxy)
+This is when  you need to cache  results of client request and manage the life cycle of the cache especially
+if results are quite large
+Logging request.This is when you want to keep the history of request to the service object
+

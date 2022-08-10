@@ -1,0 +1,22 @@
+Observer design pattern is the behavioral design pattern that allows some objects to notify other objects about
+changes in their state.
+
+The observer pattern provides a way to subscribe and unsubscribe to and from events for any object
+that implements  a subscriber interface.
+
+Observer design pattern
+
+1.Provider(The one who is providing the information to all the subscriber/listener/observer)
+2.Listener/observer:who listen the information send from the provider
+
+provider has many subscriber
+one to many relationship
+
+Java->EventListener
+
+Website Flipkart
+Flipkart[Provider]/Subject-> offers notification to all his subscriber
+by default->flipkart sign in
+Listener/Observer: Either subscriber/unsubscribe
+
+

@@ -1,0 +1,2 @@
+converts the interface of the class into another interface the clients expect;
+Adapter lets classes work together that could not otherwise because of incompatible interface

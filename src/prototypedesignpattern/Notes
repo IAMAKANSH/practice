@@ -1,0 +1,7 @@
+Prototype design pattern is the creational design pattern
+
+Used when creating object is either expensive or complicated
+
+Prototype pattern sometimes called cloning
+
+Instead of creating object we create a clone of that object

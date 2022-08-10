@@ -1,0 +1,26 @@
+Decorator design pattern is structural design pattern
+Its allows a user to add new functionality to an existing object without altering its structure
+
+Example
+
+I have a ice cream shop and right now we have 3 different types of ice cream
+Icecream Interface::
+->cost()
+
+Implements IceCream
+1.Chocolate
+2.Vanilla
+3.Mango
+
+Now we decide to add 2 more new flavours in our shop
+
+4. Strawberry
+5. ButterScotch
+
+1. Idea we will implement like the above
+
+2. IceCream interface (cost() method)
+   BasicIceCream implement icecream
+   IceCreamDecorator interface
+   all other icecream flavour implements decorator interface
+

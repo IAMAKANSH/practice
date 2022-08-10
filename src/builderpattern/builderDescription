@@ -1,0 +1,7 @@
+Builder design pattern is a creational design pattern which allows constructing complex objects
+step by step.
+Unlike other creational patterns,
+Builder doesn't require products to have a common interface.
+This makes it possible to produce different products using the same construction process
+
+It encapsulate the construction of the product
